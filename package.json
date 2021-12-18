@@ -5,7 +5,7 @@
   "license": "",
   "scripts": {
     "build": "remix build",
-    "dev": "remix dev",
+    "dev": "PORT=3300 remix dev",
     "postinstall": "remix setup node",
     "start": "remix-serve build"
   },
