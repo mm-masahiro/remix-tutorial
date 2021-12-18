@@ -1,4 +1,12 @@
-export function ErrorBoundary({ error }) {
+interface ErrorObj {
+	error: ErrorDetail;
+}
+
+interface ErrorDetail {
+	message?: string;
+}
+
+export function ErrorBoundary({ error }: ErrorObj) {
 	return (
 		<div>Error occured. {error.message}</div>
 	)
