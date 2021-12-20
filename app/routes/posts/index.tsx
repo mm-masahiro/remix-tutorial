@@ -15,7 +15,7 @@ export const loader = () => {
 
 export default function Posts() {
 	const posts = useLoaderData();
-	console.log(posts);
+	// console.log(posts);
 
 	return (
 		<div>
